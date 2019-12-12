@@ -10,7 +10,7 @@ An MySQL plugin for [RedEM](https://github.com/kanersps/redem) and [RedEM:RP](ht
 - Make sure you have [mysql-async](https://github.com/amakuu/mysql-async-temporary) installed and working
 - Utilize FXMigrant if that doesn't work use the below one
   - Import the SQL file provided with this project, `esplugin_mysql.sql` (Also be sure to remove the dependency from fxmanifest.lua)
-- Add the following convar in your server configuration file: `set es_enableCustomData 1`. Make sure you put it directly under `mysql_connection_string`
+- Add the following convar in your server configuration file: `set es_enableCustomData 1`. Make sure you put it directly above `mysql_connection_string`
 - Make your load order is correct. Here's how it should look:
 
 ```bash
