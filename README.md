@@ -4,6 +4,8 @@ An MySQL plugin for [EssentialMode](https://github.com/kanersps/essentialmode).
 
 ## Installation
 
+**If using for RedEM: Roleplay then you don't need to do what's below, just follow RedEM: Roleplay's install instructions instead!**
+
 - Download [esplugin_mysql](https://github.com/kanersps/esplugin_mysql/archive/master.zip)
 - Make sure you have [mysql-async](https://github.com/brouznouf/fivem-mysql-async) installed and working
 - Utilize FXMigrant if that doesn't work use the below one
